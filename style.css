@@ -74,17 +74,22 @@ body{
 }
 .information p{
     line-height: 22px;
+    margin: 5px 0;
 }
-.footer-text{
-    height: 21px;
+.container button{
+    margin: 0 480px;
+    width: 20%;
+    height: 28px;
     text-align: center;
     vertical-align: baseline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: linear-gradient(#424874, #CACFD6);    
-    color: #140000;
-    font-size: 13px;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #4a4f79;
 }
-.footer-text p{
-    margin-top: 0px;
-    padding-top: 2px;
+.container button:hover{
+    background-color: #DCD6F7;
+    color: black;
+    transition: 0.2s;
 }
